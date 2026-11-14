@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123c3b">
+  <meta name="description" content="An interactive academic planner for capturing and tracking study tasks.">
+  <title>Academic Planner | Collins Atuanya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Collins Atuanya home"><span class="brand-mark">C</span><span>Collins Atuanya</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a class="active" aria-current="page" href="planner.html">Planner</a><a href="contact.html">Contact</a></nav>
+  </header>
+  <main id="main" class="page-shell">
+    <section class="page-heading"><p class="eyebrow">MAKE ROOM FOR WHAT MATTERS</p><h1>Your academic <span>planner.</span></h1><p>Break the work into small steps. Your list is saved in this browser on this device.</p></section>
+    <section class="planner-layout">
+      <div class="planner-intro"><span class="planner-sun" aria-hidden="true">✳</span><p class="eyebrow">A NOTE TO YOUR FUTURE SELF</p><h2>Progress is a practice.</h2><p>Add one thing you’d like to move forward today. You can change or clear your list whenever you need.</p><div class="planner-stats"><div><strong id="task-count">0</strong><span>tasks left</span></div><div><strong id="completed-count">0</strong><span>completed</span></div></div></div>
+      <div class="planner-card">
+        <form id="task-form" class="task-form"><label class="sr-only" for="task-input">New academic task</label><input id="task-input" name="task" type="text" maxlength="160" placeholder="e.g. Review my COS 106 notes" required><button class="button button-primary" type="submit">Add task <span aria-hidden="true">+</span></button></form>
+        <p id="planner-feedback" class="form-feedback" aria-live="polite"></p>
+        <div class="task-toolbar"><h2>My study list <span id="list-count">(0)</span></h2><button class="button-quiet" id="clear-completed" type="button" disabled>Clear completed</button></div>
+        <ul class="task-list" id="task-list" aria-label="Academic tasks"></ul>
+        <p class="empty-state" id="empty-state"><span aria-hidden="true">✳</span><strong>A fresh page.</strong><span>Add a task above to get started.</span></p>
+        <p class="storage-note"><span aria-hidden="true">⌑</span> Saved only in this browser. Your tasks stay on this device.</p>
+      </div>
+    </section>
+    <section class="planner-tip"><span aria-hidden="true">✳</span><p><strong>A gentle suggestion:</strong> A clear, specific task is easier to begin. “Read two pages” can feel lighter than “finish everything.”</p></section>
+  </main>
+  <footer class="site-footer page-shell"><a class="brand footer-brand" href="index.html"><span class="brand-mark">C</span><span>Collins Atuanya</span></a><p>Made with curiosity, care, and a little ocean air.</p><span>© <span data-year></span> Collins Atuanya</span></footer>
+</body>
+</html>

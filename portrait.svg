@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="760" viewBox="0 0 600 760" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrated portrait placeholder</title>
+  <desc id="desc">A warm, abstract portrait illustration in ocean green and earth tones. Replace with a personal photograph.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dce8df"/><stop offset="1" stop-color="#b9d1c6"/></linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#225c55"/><stop offset="1" stop-color="#123c3b"/></linearGradient>
+  </defs>
+  <rect width="600" height="760" fill="url(#bg)"/>
+  <circle cx="466" cy="145" r="95" fill="#e2c89d" opacity=".8"/>
+  <path d="M47 603C113 507 168 465 300 465s211 53 259 138v157H47z" fill="#c69a68" opacity=".29"/>
+  <path d="M122 760c15-155 73-239 180-239s168 83 178 239z" fill="url(#shirt)"/>
+  <path d="M249 451h102v85c0 25-23 45-51 45s-51-20-51-45z" fill="#a96e50"/>
+  <ellipse cx="300" cy="327" rx="131" ry="153" fill="#b87957"/>
+  <path d="M168 322c-16-95 34-181 130-185 88-5 141 56 135 151l-24 47-13-86c-45-7-94-31-119-61-27 39-66 63-112 72l-1 67z" fill="#253b36"/>
+  <path d="M170 294c-31 31-23 100 8 121l12-79zM430 287c30 29 24 99-8 122l-12-79z" fill="#253b36"/>
+  <path d="M218 344c13-8 26-8 39 0M343 344c13-8 26-8 39 0" fill="none" stroke="#48342d" stroke-linecap="round" stroke-width="8"/>
+  <ellipse cx="238" cy="365" rx="7" ry="9" fill="#253b36"/>
+  <ellipse cx="361" cy="365" rx="7" ry="9" fill="#253b36"/>
+  <path d="M296 366c-2 17-11 38-7 44 5 5 17 5 22 0" fill="none" stroke="#945c45" stroke-linecap="round" stroke-width="5"/>
+  <path d="M267 431c18 15 46 15 66 0" fill="none" stroke="#774638" stroke-linecap="round" stroke-width="6"/>
+  <path d="M268 520l32 42 33-42" fill="#f3f0e5"/>
+  <path d="M300 562l-22 39 22 38 22-38z" fill="#b88950"/>
+  <circle cx="300" cy="600" r="5" fill="#f2d89e"/>
+  <path d="M50 72h78M50 94h46M480 674h72" stroke="#fffefa" stroke-linecap="round" stroke-width="5" opacity=".65"/>
+</svg>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123c3b">
+  <meta name="description" content="Contact Collins Atuanya about student projects, learning, and collaboration.">
+  <title>Contact | Collins Atuanya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Collins Atuanya home"><span class="brand-mark">C</span><span>Collins Atuanya</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span><span class="sr-only">Toggle navigation</span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="planner.html">Planner</a><a class="active" aria-current="page" href="contact.html">Contact</a></nav>
+  </header>
+  <main id="main" class="page-shell">
+    <section class="page-heading"><p class="eyebrow">A FRIENDLY HELLO IS ALWAYS WELCOME</p><h1>Let’s start a <span>conversation.</span></h1><p>Have a question about a project or want to talk about learning? Send a note.</p></section>
+    <section class="contact-layout">
+      <aside class="contact-card"><span class="contact-stamp" aria-hidden="true">C.</span><p class="eyebrow">FIND ME HERE</p><h2>Good conversations make good ideas better.</h2><p>I’m a student, so replies may take a little time. The best way to reach me is through my university email.</p><a class="contact-email" href="mailto:c.atuanya5529@miva.edu.ng">c.atuanya5529@miva.edu.ng <span aria-hidden="true">↗</span></a><div class="contact-location"><span aria-hidden="true">⌁</span><span>Lagos, Nigeria<br><small>MIVA Open University</small></span></div></aside>
+      <div class="contact-form-panel">
+        <form id="contact-form" novalidate>
+          <div class="form-field"><label for="contact-name">Your name <span aria-hidden="true">*</span></label><input id="contact-name" name="name" type="text" autocomplete="name" required aria-describedby="name-error"><small class="field-error" id="name-error"></small></div>
+          <div class="form-field"><label for="contact-email">Email address <span aria-hidden="true">*</span></label><input id="contact-email" name="email" type="email" autocomplete="email" required aria-describedby="email-error"><small class="field-error" id="email-error"></small></div>
+          <div class="form-field"><label for="contact-phone">Phone number <span aria-hidden="true">*</span></label><input id="contact-phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel-national" pattern="[0-9]+" required aria-describedby="phone-error"><small class="field-hint">Digits only, including your area or country code.</small><small class="field-error" id="phone-error"></small></div>
+          <div class="form-field"><label for="contact-message">Your message <span aria-hidden="true">*</span></label><textarea id="contact-message" name="message" rows="5" required aria-describedby="message-error"></textarea><small class="field-error" id="message-error"></small></div>
+          <button class="button button-primary form-submit" type="submit">Prepare email <span aria-hidden="true">↗</span></button>
+          <p class="form-feedback" id="contact-feedback" aria-live="polite">This form opens your email app after validation. It doesn’t send or store your message on this website.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer page-shell"><a class="brand footer-brand" href="index.html"><span class="brand-mark">C</span><span>Collins Atuanya</span></a><p>Made with curiosity, care, and a little ocean air.</p><span>© <span data-year></span> Collins Atuanya</span></footer>
+</body>
+</html>
