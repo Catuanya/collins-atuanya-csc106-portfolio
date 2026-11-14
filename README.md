@@ -1,6 +1,11 @@
 # Collins Atuanya — Student Portfolio
 
-A responsive student portfolio and academic planner for the COS 106 practical term project at MIVA Open University.
+A responsive student portfolio and academic planner for the CSC 106 practical term project at MIVA Open University.
+
+## Live links
+
+- Website: <https://catuanya.github.io/collins-atuanya-csc106-portfolio/>
+- Repository: <https://github.com/Catuanya/collins-atuanya-csc106-portfolio>
 
 ## Pages
 
@@ -19,6 +24,6 @@ Open `index.html` in a browser. The site has no build step or external JavaScrip
 - Replace `assets/portrait.svg` with a personal photograph and update the alternative text on `index.html` and `about.html`.
 - Review the sample project descriptions and contact details.
 
-## Publish with GitHub Pages
+## Deployment
 
-Push this folder to a GitHub repository, then open **Settings → Pages**, select **Deploy from a branch**, choose `main` and `/ (root)`, and save. The site is served from `index.html`.
+GitHub Pages is enabled for the `main` branch at the repository root. New commits are deployed automatically; the site entry point is `index.html`.
