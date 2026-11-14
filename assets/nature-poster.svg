@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d8e9de"/><stop offset="1" stop-color="#f2e8d5"/></linearGradient></defs>
+  <rect width="960" height="540" fill="url(#sky)"/>
+  <circle cx="733" cy="145" r="65" fill="#f2d9a8"/>
+  <path d="M0 365c127-69 216-41 332 3s212 43 325-3 188-46 303 5v170H0z" fill="#9bb6a0"/>
+  <path d="M0 423c142-54 246 6 369 18s221-53 328-37 171 38 263 14v122H0z" fill="#648a75"/>
+  <path d="M0 468c110-24 215 31 325 31 120 0 207-50 330-45s202 31 305 1v85H0z" fill="#174b48"/>
+  <g fill="#fffefa" opacity=".7"><circle cx="148" cy="134" r="3"/><circle cx="204" cy="185" r="2"/><circle cx="831" cy="263" r="3"/><circle cx="578" cy="108" r="2"/></g>
+  <text x="42" y="493" fill="#fffefa" font-family="Arial,sans-serif" font-size="18" letter-spacing="3">PAUSE · BREATHE · BEGIN AGAIN</text>
+</svg>
